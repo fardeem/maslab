@@ -1,0 +1,47 @@
+.hero-blobs {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 1000px;
+  z-index: -1;
+  pointer-events: none;
+  top: 0;
+  overflow: hidden;
+}
+
+  .hero-blobs .hero-blobs__1 {
+    top: -22rem;
+    right: -8rem;
+    position: absolute;
+    width: 539px;
+    height: 530px;
+    z-index: 2;
+  }
+
+    .hero-blobs .hero-blobs__1 .blob-shape {
+      fill: #abd8d4
+    }
+
+  .hero-blobs .hero-blobs__2 {
+    top: 22rem;
+    left: -32rem;
+    position: absolute;
+    width: 604px;
+    height: 684px
+  }
+
+    .hero-blobs .hero-blobs__2 .blob-shape {
+      fill: #ff5831
+    }
+
+  .hero-blobs .hero-blobs__3 {
+    top: 15rem;
+    right: -30rem;
+    position: absolute;
+    width: 633px;
+    height: 582px
+  }
+
+    .hero-blobs .hero-blobs__3 .blob-shape {
+      fill: #f7ef89
+    }

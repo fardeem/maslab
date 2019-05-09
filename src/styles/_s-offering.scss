@@ -1,0 +1,88 @@
+.s-offering {
+  
+  &__title {
+    text-align: center;
+    
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 4rem;
+    }
+    
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 0.2rem;
+      text-transform: uppercase;
+    }
+  }
+  
+  
+  
+  &__desc {
+    text-align: center;
+    line-height: 1.5;
+    width: 500px;
+    margin: 2rem auto;
+  }
+  
+}
+
+.s-offering__grid {
+  .item {
+    border-radius: 20px;
+    width: 400px;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    
+    .heading {
+      padding: 1rem;
+      color: white;
+      text-align: center;
+      font-size: 2rem;
+      letter-spacing: 0.02em;
+    }
+    
+    .img {
+      width: 100%;
+      height: 220px;
+    }
+  }
+  
+  .item:nth-of-type(1) {
+    background-color: #E47C5B;
+
+    .img {
+      background: white url(/img/discovery.png) no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+  }
+  
+  .item:nth-of-type(2) {
+    background-color: #88C8C1;
+    .img {
+      background: white url(/img/reading.png) no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+  }
+  
+  .item:nth-of-type(3) {
+    background-color: #F0B94A;
+    .img {
+      background: white url(/img/problem-solving.png) no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+  }
+  
+  .item:nth-of-type(4) {
+    background-color: #5A6EAB;
+    .img {
+      background: white url(/img/exploration.png) no-repeat;
+      background-size: 60%;
+      background-position: center 110%;
+    }
+  }
+}

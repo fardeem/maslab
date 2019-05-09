@@ -1,0 +1,81 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+
+@import "_reset";
+
+
+body {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-size: 1.2em;
+  line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: inherit;
+  margin: 0;
+}
+
+.header {
+
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.5rem 0;
+  margin-bottom: 3rem;
+  
+  
+  .logo {
+    font-family: Roboto Mono;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-size: 1.8rem;
+  }
+}
+
+.container {
+  width: 100%;
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.donate {
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  background: linear-gradient(to right,#ff8a00,#da1b60);
+  padding: 1em 2em;
+  border: 2px solid white;
+  box-shadow: 0px 4px 9px 2px #00000029;
+  font-family: inherit;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  letter-spacing: .3em;
+  z-index: 2;
+}
+
+@import "_hero-blobs";
+@import "_s-hero";
+@import "_s-education-state";
+@import "_s-question";
+@import "_s-4thir";
+@import "_s-offering";
+@import "_s-lab";
+@import "_s-case-studies";
+@import "_s-money";
+
+
+
+
