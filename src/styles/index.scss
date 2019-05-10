@@ -4,10 +4,11 @@
  */
 
 @import "_reset";
+@import url(//fonts.googleapis.com/earlyaccess/notosansbengali.css);
 
 
 body {
-  font-family: Quicksand;
+  font-family: 'Quicksand', 'Noto Sans Bengali', sans-serif;
   font-style: normal;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -23,10 +24,13 @@ h1, h2, h3, h4, h5, h6 {
 .header {
 
   display: flex;
-  justify-content: space-evenly;
-  padding: 1.5rem 0;
+  justify-content: flex-end;
+  padding: 1.5rem 2rem;
   margin-bottom: 3rem;
   
+  @media screen and (min-width: 700px) {
+    justify-content: space-evenly;
+  }
   
   .logo {
     font-family: Roboto Mono;
@@ -52,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .donate {
   position: fixed;
-  top: 2rem;
+  top: 0.5rem;
   left: 2rem;
   background: linear-gradient(to right,#ff8a00,#da1b60);
   padding: 1em 2em;
@@ -74,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 @import "_s-offering";
 @import "_s-lab";
 @import "_s-case-studies";
-@import "_s-money";
+@import "_s-footer";
 
 
 

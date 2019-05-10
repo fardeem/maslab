@@ -1,0 +1,35 @@
+.footer {
+  position: relative;
+}
+
+.s-money {
+  padding: 2rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.s-updates {
+
+  &__title {
+    margin-bottom: 4rem;
+  }
+
+  button {
+    font-family: inherit;
+    background: linear-gradient(to right, #2980b9, #6dd5fa);;
+    border: 0;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    color: white;
+    // float: right;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  }
+}
+
+.endnotes {
+  background: #272C50;
+  color: #ffffffa3;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
