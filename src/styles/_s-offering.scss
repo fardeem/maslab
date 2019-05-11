@@ -20,7 +20,7 @@
   &__desc {
     text-align: center;
     line-height: 1.5;
-    width: 500px;
+    max-width: 500px;
     margin: 2rem auto;
   }
   
@@ -31,17 +31,20 @@
     border-radius: 20px;
     width: 80%;
     max-width: 400px;
-    padding-top: 1em;
     padding-bottom: 2em;
     margin: 0 auto;
     margin-bottom: 4rem;
     
     .heading {
-      padding: 1rem;
+      padding: .8rem;
       color: white;
       text-align: center;
-      font-size: 2rem;
+      font-size: 1.6rem;
       letter-spacing: 0.02em;
+
+      @media screen and (min-width: 600px) {
+        font-size: 2rem;
+      }
     }
     
     .img {
