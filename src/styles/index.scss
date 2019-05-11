@@ -56,17 +56,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .donate {
   position: fixed;
-  top: 0.5rem;
+  top: .5rem;
   left: 2rem;
   background: linear-gradient(to right,#ff8a00,#da1b60);
-  padding: 1em 2em;
+  padding: 1rem 1rem;
   border: 2px solid white;
   box-shadow: 0px 4px 9px 2px #00000029;
   font-family: inherit;
   border-radius: 30px;
   color: white;
   cursor: pointer;
-  letter-spacing: .3em;
+  letter-spacing: .1em;
   z-index: 2;
 }
 
